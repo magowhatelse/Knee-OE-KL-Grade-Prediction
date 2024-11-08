@@ -13,7 +13,6 @@ train_dataset = knee_Xray_dataset(dataset=train_set)
 from torch.utils.data import DataLoader
 import numpy as np
 
-# Assuming `train_dataset` is your dataset
 loader = DataLoader(train_dataset, batch_size=64, shuffle=False)
 
 mean = 0.
